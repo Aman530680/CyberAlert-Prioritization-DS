@@ -1,0 +1,74 @@
+{
+  "audit_timestamp": "2026-09-28T07:19:47.454150",
+  "total_records": 100000,
+  "total_unique_keys": 35,
+  "malformed_records": 0,
+  "duplicate_event_ids": 0,
+  "invalid_timestamps": 0,
+  "invalid_severities": 0,
+  "invalid_event_types": 0,
+  "date_range": {
+    "start": "2020-07-12T21:38:20",
+    "end": "2030-07-10T06:49:21",
+    "span_days": 3649
+  },
+  "metrics": {
+    "unique_event_types": 8,
+    "unique_sources": 20,
+    "unique_alert_types": 17,
+    "unique_categories": 5
+  },
+  "distributions": {
+    "severity": {
+      "critical": 17711,
+      "low": 20507,
+      "info": 18127,
+      "high": 20496,
+      "medium": 20639,
+      "emergency": 2520
+    },
+    "event_type": {
+      "endpoint": 12589,
+      "iot": 12434,
+      "ids_alert": 12500,
+      "cloud": 12511,
+      "ai": 12667,
+      "firewall": 12448,
+      "network": 12335,
+      "auth": 12516
+    },
+    "top_sources": {
+      "ArcSight v7.4.0": 5134,
+      "OSSEC v3.7.0": 5101,
+      "AlienVault v5.7.0": 5080,
+      "FireEye HX v4.5.0": 5078,
+      "CrowdStrike v6.45.0": 5069,
+      "Zeek v5.0.0": 5026,
+      "Splunk v9.0.2": 5021,
+      "Suricata v6.0.10": 5006,
+      "Trellix v10.7.0": 4995,
+      "Palo Alto Cortex v3.0.0": 4994
+    },
+    "top_alert_types": {
+      "Zero-Day Exploit": 810,
+      "MFA Bypass": 791,
+      "Credential Stuffing": 784,
+      "Supply Chain Compromise": 767,
+      "XSS": 762,
+      "Brute Force": 749,
+      "Port Scan": 744,
+      "DNS Tunneling": 738,
+      "DDoS": 735,
+      "Living-off-the-Land": 728
+    },
+    "categories": {
+      "Exploit": 2448,
+      "Recon": 2509,
+      "Policy": 2534,
+      "Malware": 2453,
+      "Evasion": 2556
+    }
+  },
+  "data_quality_score": 100.0,
+  "status": "PASSED"
+}
