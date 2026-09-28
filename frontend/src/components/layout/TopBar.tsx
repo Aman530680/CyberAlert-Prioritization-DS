@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import { Bell, Command, SunMoon, ShieldCheck } from 'lucide-react';
+import { Bell, Command, ShieldCheck } from 'lucide-react';
 import { NavRoute } from './Sidebar';
 
 interface TopBarProps {
@@ -84,14 +84,6 @@ export const TopBar: React.FC<TopBarProps> = ({
         >
           <Bell className="w-4 h-4" strokeWidth={1.5} />
           <span className="absolute top-1.5 right-1.5 w-1.5 h-1.5 rounded-full bg-red" />
-        </button>
-
-        {/* Theme Toggle (Aesthetic) */}
-        <button
-          aria-label="Theme Mode"
-          className="w-8 h-8 rounded-btn flex items-center justify-center text-text-3 hover:text-text-1 hover:bg-white/[0.05] transition-colors"
-        >
-          <SunMoon className="w-4 h-4" strokeWidth={1.5} />
         </button>
 
         {/* 1px Vertical Divider */}

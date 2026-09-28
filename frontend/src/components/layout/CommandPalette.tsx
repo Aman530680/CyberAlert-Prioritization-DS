@@ -167,7 +167,7 @@ export const CommandPalette: React.FC<CommandPaletteProps> = ({
               <span>Use <kbd className="px-1 py-0.5 rounded bg-white/[0.05] border border-border">↑</kbd> <kbd className="px-1 py-0.5 rounded bg-white/[0.05] border border-border">↓</kbd> to navigate</span>
               <span><kbd className="px-1 py-0.5 rounded bg-white/[0.05] border border-border">ESC</kbd> to close</span>
             </div>
-            <span>OmniSentinel v2.4</span>
+            <span>Hellow Sentinel v2.4</span>
           </div>
         </Command>
       </div>

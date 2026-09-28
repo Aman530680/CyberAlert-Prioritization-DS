@@ -201,7 +201,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
               transition={{ duration: 0.4, delay: 0.1 }}
               className="text-[56px] font-bold tracking-[-0.03em] leading-none bg-gradient-to-b from-white to-[#9ca3af] bg-clip-text text-transparent font-sans"
             >
-              OmniSentinel
+              Hellow Sentinel
             </motion.h1>
           </div>
 

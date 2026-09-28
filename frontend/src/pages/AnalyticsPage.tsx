@@ -59,6 +59,7 @@ export const AnalyticsPage: React.FC = () => {
   const [insights, setInsights] = useState<AutoInsight[]>([]);
   const [alerts, setAlerts] = useState<NormalizedAlert[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
+  const [chartMode, setChartMode] = useState<'combined' | 'stacked'>('combined');
 
   // Filter state
   const [filters, setFilters] = useState<AnalyticsFilterState>({
@@ -238,17 +239,51 @@ export const AnalyticsPage: React.FC = () => {
               <div className="flex items-center gap-2">
                 <BarChart3 className="w-4 h-4 text-cyan" />
                 <span className="text-card-label text-text-3 font-medium">
-                  ALERT VOLUME OVER TIME (STACKED BY SEVERITY)
+                  ALERT VOLUME OVER TIME (24H DIURNAL PROFILE)
                 </span>
+              </div>
+
+              {/* Simple Toggle between Combined and By Severity */}
+              <div className="flex items-center gap-1 bg-inset p-0.5 rounded-btn border border-border text-[11px] font-mono">
+                <button
+                  onClick={() => setChartMode('combined')}
+                  className={`px-2.5 py-0.5 rounded ${chartMode === 'combined' ? 'bg-cyan/15 text-cyan font-semibold border border-cyan/30' : 'text-text-4 hover:text-text-2'}`}
+                >
+                  Combined
+                </button>
+                <button
+                  onClick={() => setChartMode('stacked')}
+                  className={`px-2.5 py-0.5 rounded ${chartMode === 'stacked' ? 'bg-amber-dim text-amber font-semibold border border-amber/30' : 'text-text-4 hover:text-text-2'}`}
+                >
+                  By Severity
+                </button>
               </div>
             </div>
 
             <div className="w-full h-[280px]">
               <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={timeseries} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>
+                <AreaChart data={timeseries} margin={{ top: 10, right: 10, left: -10, bottom: 0 }}>
+                  <defs>
+                    <linearGradient id="totalVolumeGradient" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#06b6d4" stopOpacity={0.35} />
+                      <stop offset="95%" stopColor="#06b6d4" stopOpacity={0.02} />
+                    </linearGradient>
+                  </defs>
                   <CartesianGrid strokeDasharray="3 4" stroke="#1c1c22" vertical={false} />
-                  <XAxis dataKey="time" stroke="#52525b" tick={{ fill: '#52525b', fontSize: 10, fontFamily: 'JetBrains Mono' }} />
-                  <YAxis stroke="#52525b" tick={{ fill: '#52525b', fontSize: 10, fontFamily: 'JetBrains Mono' }} />
+                  <XAxis
+                    dataKey="time"
+                    interval={2}
+                    stroke="#52525b"
+                    tick={{ fill: '#71717a', fontSize: 11, fontFamily: 'JetBrains Mono' }}
+                    tickLine={false}
+                    axisLine={{ stroke: '#1c1c22' }}
+                  />
+                  <YAxis
+                    stroke="#52525b"
+                    tick={{ fill: '#71717a', fontSize: 11, fontFamily: 'JetBrains Mono' }}
+                    tickLine={false}
+                    axisLine={{ stroke: '#1c1c22' }}
+                  />
                   <RechartsTooltip
                     content={({ active, payload, label }) => {
                       if (!active || !payload?.length) return null;
@@ -265,11 +300,34 @@ export const AnalyticsPage: React.FC = () => {
                       );
                     }}
                   />
-                  <Area type="monotone" dataKey="low" stackId="1" stroke="#22c55e" fill="#22c55e" fillOpacity={0.25} />
-                  <Area type="monotone" dataKey="medium" stackId="1" stroke="#06b6d4" fill="#06b6d4" fillOpacity={0.35} />
-                  <Area type="monotone" dataKey="high" stackId="1" stroke="#f59e0b" fill="#f59e0b" fillOpacity={0.45} />
-                  <Area type="monotone" dataKey="critical" stackId="1" stroke="#dc2626" fill="#dc2626" fillOpacity={0.65} />
-                  <Brush dataKey="time" height={20} stroke="#27272f" fill="#0c0c0f" />
+                  {chartMode === 'combined' ? (
+                    <>
+                      <Area
+                        type="monotone"
+                        dataKey="total"
+                        name="Total Alerts"
+                        stroke="#06b6d4"
+                        strokeWidth={2}
+                        fill="url(#totalVolumeGradient)"
+                      />
+                      <Area
+                        type="monotone"
+                        dataKey="critical"
+                        name="Critical Events"
+                        stroke="#dc2626"
+                        strokeWidth={2}
+                        fill="#dc2626"
+                        fillOpacity={0.15}
+                      />
+                    </>
+                  ) : (
+                    <>
+                      <Area type="monotone" dataKey="low" stackId="1" name="Low" stroke="#22c55e" fill="#22c55e" fillOpacity={0.25} />
+                      <Area type="monotone" dataKey="medium" stackId="1" name="Medium" stroke="#06b6d4" fill="#06b6d4" fillOpacity={0.35} />
+                      <Area type="monotone" dataKey="high" stackId="1" name="High" stroke="#f59e0b" fill="#f59e0b" fillOpacity={0.45} />
+                      <Area type="monotone" dataKey="critical" stackId="1" name="Critical" stroke="#dc2626" fill="#dc2626" fillOpacity={0.65} />
+                    </>
+                  )}
                 </AreaChart>
               </ResponsiveContainer>
             </div>

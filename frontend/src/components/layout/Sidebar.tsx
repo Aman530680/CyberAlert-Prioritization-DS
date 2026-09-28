@@ -132,7 +132,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               {!collapsed && (
                 <div className="flex flex-col overflow-hidden">
                   <span className="text-[14px] font-semibold text-text-1 tracking-tight leading-none">
-                    OmniSentinel
+                    Hellow Sentinel
                   </span>
                   <span className="text-[9px] font-mono text-amber tracking-[0.16em] uppercase mt-1 leading-none">
                     Cybersecurity SOC
