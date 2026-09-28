@@ -1,0 +1,127 @@
+[
+  {
+    "featureA": "Risk Score",
+    "featureB": "Risk Score",
+    "coefficient": 1
+  },
+  {
+    "featureA": "Risk Score",
+    "featureB": "Confidence",
+    "coefficient": 0.02
+  },
+  {
+    "featureA": "Risk Score",
+    "featureB": "Baseline Dev",
+    "coefficient": -0.04
+  },
+  {
+    "featureA": "Risk Score",
+    "featureB": "Entropy",
+    "coefficient": -0.03
+  },
+  {
+    "featureA": "Risk Score",
+    "featureB": "Bytes",
+    "coefficient": 0
+  },
+  {
+    "featureA": "Confidence",
+    "featureB": "Risk Score",
+    "coefficient": 0.02
+  },
+  {
+    "featureA": "Confidence",
+    "featureB": "Confidence",
+    "coefficient": 1
+  },
+  {
+    "featureA": "Confidence",
+    "featureB": "Baseline Dev",
+    "coefficient": 0.02
+  },
+  {
+    "featureA": "Confidence",
+    "featureB": "Entropy",
+    "coefficient": 0.03
+  },
+  {
+    "featureA": "Confidence",
+    "featureB": "Bytes",
+    "coefficient": 0.01
+  },
+  {
+    "featureA": "Baseline Dev",
+    "featureB": "Risk Score",
+    "coefficient": -0.04
+  },
+  {
+    "featureA": "Baseline Dev",
+    "featureB": "Confidence",
+    "coefficient": 0.02
+  },
+  {
+    "featureA": "Baseline Dev",
+    "featureB": "Baseline Dev",
+    "coefficient": 1
+  },
+  {
+    "featureA": "Baseline Dev",
+    "featureB": "Entropy",
+    "coefficient": 0.83
+  },
+  {
+    "featureA": "Baseline Dev",
+    "featureB": "Bytes",
+    "coefficient": -0.01
+  },
+  {
+    "featureA": "Entropy",
+    "featureB": "Risk Score",
+    "coefficient": -0.03
+  },
+  {
+    "featureA": "Entropy",
+    "featureB": "Confidence",
+    "coefficient": 0.03
+  },
+  {
+    "featureA": "Entropy",
+    "featureB": "Baseline Dev",
+    "coefficient": 0.83
+  },
+  {
+    "featureA": "Entropy",
+    "featureB": "Entropy",
+    "coefficient": 1
+  },
+  {
+    "featureA": "Entropy",
+    "featureB": "Bytes",
+    "coefficient": 0
+  },
+  {
+    "featureA": "Bytes",
+    "featureB": "Risk Score",
+    "coefficient": 0
+  },
+  {
+    "featureA": "Bytes",
+    "featureB": "Confidence",
+    "coefficient": 0.01
+  },
+  {
+    "featureA": "Bytes",
+    "featureB": "Baseline Dev",
+    "coefficient": -0.01
+  },
+  {
+    "featureA": "Bytes",
+    "featureB": "Entropy",
+    "coefficient": 0
+  },
+  {
+    "featureA": "Bytes",
+    "featureB": "Bytes",
+    "coefficient": 1
+  }
+]

@@ -1,0 +1,1010 @@
+[
+  {
+    "day": 0,
+    "hour": 0,
+    "count": 641,
+    "criticalCount": 131
+  },
+  {
+    "day": 0,
+    "hour": 1,
+    "count": 591,
+    "criticalCount": 131
+  },
+  {
+    "day": 0,
+    "hour": 2,
+    "count": 541,
+    "criticalCount": 116
+  },
+  {
+    "day": 0,
+    "hour": 3,
+    "count": 547,
+    "criticalCount": 108
+  },
+  {
+    "day": 0,
+    "hour": 4,
+    "count": 596,
+    "criticalCount": 142
+  },
+  {
+    "day": 0,
+    "hour": 5,
+    "count": 632,
+    "criticalCount": 127
+  },
+  {
+    "day": 0,
+    "hour": 6,
+    "count": 565,
+    "criticalCount": 121
+  },
+  {
+    "day": 0,
+    "hour": 7,
+    "count": 616,
+    "criticalCount": 125
+  },
+  {
+    "day": 0,
+    "hour": 8,
+    "count": 573,
+    "criticalCount": 125
+  },
+  {
+    "day": 0,
+    "hour": 9,
+    "count": 581,
+    "criticalCount": 115
+  },
+  {
+    "day": 0,
+    "hour": 10,
+    "count": 611,
+    "criticalCount": 132
+  },
+  {
+    "day": 0,
+    "hour": 11,
+    "count": 621,
+    "criticalCount": 117
+  },
+  {
+    "day": 0,
+    "hour": 12,
+    "count": 594,
+    "criticalCount": 126
+  },
+  {
+    "day": 0,
+    "hour": 13,
+    "count": 623,
+    "criticalCount": 111
+  },
+  {
+    "day": 0,
+    "hour": 14,
+    "count": 613,
+    "criticalCount": 131
+  },
+  {
+    "day": 0,
+    "hour": 15,
+    "count": 634,
+    "criticalCount": 127
+  },
+  {
+    "day": 0,
+    "hour": 16,
+    "count": 593,
+    "criticalCount": 122
+  },
+  {
+    "day": 0,
+    "hour": 17,
+    "count": 603,
+    "criticalCount": 138
+  },
+  {
+    "day": 0,
+    "hour": 18,
+    "count": 593,
+    "criticalCount": 113
+  },
+  {
+    "day": 0,
+    "hour": 19,
+    "count": 622,
+    "criticalCount": 137
+  },
+  {
+    "day": 0,
+    "hour": 20,
+    "count": 622,
+    "criticalCount": 151
+  },
+  {
+    "day": 0,
+    "hour": 21,
+    "count": 584,
+    "criticalCount": 123
+  },
+  {
+    "day": 0,
+    "hour": 22,
+    "count": 592,
+    "criticalCount": 114
+  },
+  {
+    "day": 0,
+    "hour": 23,
+    "count": 585,
+    "criticalCount": 116
+  },
+  {
+    "day": 1,
+    "hour": 0,
+    "count": 586,
+    "criticalCount": 109
+  },
+  {
+    "day": 1,
+    "hour": 1,
+    "count": 585,
+    "criticalCount": 130
+  },
+  {
+    "day": 1,
+    "hour": 2,
+    "count": 570,
+    "criticalCount": 103
+  },
+  {
+    "day": 1,
+    "hour": 3,
+    "count": 623,
+    "criticalCount": 120
+  },
+  {
+    "day": 1,
+    "hour": 4,
+    "count": 584,
+    "criticalCount": 123
+  },
+  {
+    "day": 1,
+    "hour": 5,
+    "count": 627,
+    "criticalCount": 107
+  },
+  {
+    "day": 1,
+    "hour": 6,
+    "count": 608,
+    "criticalCount": 128
+  },
+  {
+    "day": 1,
+    "hour": 7,
+    "count": 602,
+    "criticalCount": 120
+  },
+  {
+    "day": 1,
+    "hour": 8,
+    "count": 573,
+    "criticalCount": 106
+  },
+  {
+    "day": 1,
+    "hour": 9,
+    "count": 602,
+    "criticalCount": 106
+  },
+  {
+    "day": 1,
+    "hour": 10,
+    "count": 633,
+    "criticalCount": 141
+  },
+  {
+    "day": 1,
+    "hour": 11,
+    "count": 593,
+    "criticalCount": 99
+  },
+  {
+    "day": 1,
+    "hour": 12,
+    "count": 629,
+    "criticalCount": 126
+  },
+  {
+    "day": 1,
+    "hour": 13,
+    "count": 570,
+    "criticalCount": 116
+  },
+  {
+    "day": 1,
+    "hour": 14,
+    "count": 602,
+    "criticalCount": 113
+  },
+  {
+    "day": 1,
+    "hour": 15,
+    "count": 664,
+    "criticalCount": 128
+  },
+  {
+    "day": 1,
+    "hour": 16,
+    "count": 649,
+    "criticalCount": 118
+  },
+  {
+    "day": 1,
+    "hour": 17,
+    "count": 582,
+    "criticalCount": 126
+  },
+  {
+    "day": 1,
+    "hour": 18,
+    "count": 574,
+    "criticalCount": 117
+  },
+  {
+    "day": 1,
+    "hour": 19,
+    "count": 594,
+    "criticalCount": 122
+  },
+  {
+    "day": 1,
+    "hour": 20,
+    "count": 586,
+    "criticalCount": 109
+  },
+  {
+    "day": 1,
+    "hour": 21,
+    "count": 623,
+    "criticalCount": 126
+  },
+  {
+    "day": 1,
+    "hour": 22,
+    "count": 632,
+    "criticalCount": 128
+  },
+  {
+    "day": 1,
+    "hour": 23,
+    "count": 603,
+    "criticalCount": 110
+  },
+  {
+    "day": 2,
+    "hour": 0,
+    "count": 567,
+    "criticalCount": 113
+  },
+  {
+    "day": 2,
+    "hour": 1,
+    "count": 623,
+    "criticalCount": 135
+  },
+  {
+    "day": 2,
+    "hour": 2,
+    "count": 561,
+    "criticalCount": 108
+  },
+  {
+    "day": 2,
+    "hour": 3,
+    "count": 612,
+    "criticalCount": 126
+  },
+  {
+    "day": 2,
+    "hour": 4,
+    "count": 635,
+    "criticalCount": 122
+  },
+  {
+    "day": 2,
+    "hour": 5,
+    "count": 605,
+    "criticalCount": 140
+  },
+  {
+    "day": 2,
+    "hour": 6,
+    "count": 584,
+    "criticalCount": 117
+  },
+  {
+    "day": 2,
+    "hour": 7,
+    "count": 560,
+    "criticalCount": 116
+  },
+  {
+    "day": 2,
+    "hour": 8,
+    "count": 596,
+    "criticalCount": 137
+  },
+  {
+    "day": 2,
+    "hour": 9,
+    "count": 548,
+    "criticalCount": 111
+  },
+  {
+    "day": 2,
+    "hour": 10,
+    "count": 587,
+    "criticalCount": 105
+  },
+  {
+    "day": 2,
+    "hour": 11,
+    "count": 652,
+    "criticalCount": 138
+  },
+  {
+    "day": 2,
+    "hour": 12,
+    "count": 593,
+    "criticalCount": 107
+  },
+  {
+    "day": 2,
+    "hour": 13,
+    "count": 577,
+    "criticalCount": 105
+  },
+  {
+    "day": 2,
+    "hour": 14,
+    "count": 562,
+    "criticalCount": 120
+  },
+  {
+    "day": 2,
+    "hour": 15,
+    "count": 601,
+    "criticalCount": 115
+  },
+  {
+    "day": 2,
+    "hour": 16,
+    "count": 581,
+    "criticalCount": 104
+  },
+  {
+    "day": 2,
+    "hour": 17,
+    "count": 599,
+    "criticalCount": 116
+  },
+  {
+    "day": 2,
+    "hour": 18,
+    "count": 624,
+    "criticalCount": 129
+  },
+  {
+    "day": 2,
+    "hour": 19,
+    "count": 577,
+    "criticalCount": 116
+  },
+  {
+    "day": 2,
+    "hour": 20,
+    "count": 652,
+    "criticalCount": 149
+  },
+  {
+    "day": 2,
+    "hour": 21,
+    "count": 616,
+    "criticalCount": 118
+  },
+  {
+    "day": 2,
+    "hour": 22,
+    "count": 613,
+    "criticalCount": 126
+  },
+  {
+    "day": 2,
+    "hour": 23,
+    "count": 576,
+    "criticalCount": 120
+  },
+  {
+    "day": 3,
+    "hour": 0,
+    "count": 613,
+    "criticalCount": 124
+  },
+  {
+    "day": 3,
+    "hour": 1,
+    "count": 581,
+    "criticalCount": 106
+  },
+  {
+    "day": 3,
+    "hour": 2,
+    "count": 587,
+    "criticalCount": 124
+  },
+  {
+    "day": 3,
+    "hour": 3,
+    "count": 536,
+    "criticalCount": 123
+  },
+  {
+    "day": 3,
+    "hour": 4,
+    "count": 628,
+    "criticalCount": 130
+  },
+  {
+    "day": 3,
+    "hour": 5,
+    "count": 583,
+    "criticalCount": 112
+  },
+  {
+    "day": 3,
+    "hour": 6,
+    "count": 619,
+    "criticalCount": 120
+  },
+  {
+    "day": 3,
+    "hour": 7,
+    "count": 622,
+    "criticalCount": 120
+  },
+  {
+    "day": 3,
+    "hour": 8,
+    "count": 618,
+    "criticalCount": 109
+  },
+  {
+    "day": 3,
+    "hour": 9,
+    "count": 620,
+    "criticalCount": 124
+  },
+  {
+    "day": 3,
+    "hour": 10,
+    "count": 580,
+    "criticalCount": 119
+  },
+  {
+    "day": 3,
+    "hour": 11,
+    "count": 579,
+    "criticalCount": 128
+  },
+  {
+    "day": 3,
+    "hour": 12,
+    "count": 607,
+    "criticalCount": 118
+  },
+  {
+    "day": 3,
+    "hour": 13,
+    "count": 619,
+    "criticalCount": 140
+  },
+  {
+    "day": 3,
+    "hour": 14,
+    "count": 621,
+    "criticalCount": 115
+  },
+  {
+    "day": 3,
+    "hour": 15,
+    "count": 625,
+    "criticalCount": 128
+  },
+  {
+    "day": 3,
+    "hour": 16,
+    "count": 624,
+    "criticalCount": 135
+  },
+  {
+    "day": 3,
+    "hour": 17,
+    "count": 629,
+    "criticalCount": 126
+  },
+  {
+    "day": 3,
+    "hour": 18,
+    "count": 598,
+    "criticalCount": 119
+  },
+  {
+    "day": 3,
+    "hour": 19,
+    "count": 576,
+    "criticalCount": 135
+  },
+  {
+    "day": 3,
+    "hour": 20,
+    "count": 633,
+    "criticalCount": 120
+  },
+  {
+    "day": 3,
+    "hour": 21,
+    "count": 641,
+    "criticalCount": 142
+  },
+  {
+    "day": 3,
+    "hour": 22,
+    "count": 603,
+    "criticalCount": 137
+  },
+  {
+    "day": 3,
+    "hour": 23,
+    "count": 571,
+    "criticalCount": 122
+  },
+  {
+    "day": 4,
+    "hour": 0,
+    "count": 574,
+    "criticalCount": 113
+  },
+  {
+    "day": 4,
+    "hour": 1,
+    "count": 597,
+    "criticalCount": 114
+  },
+  {
+    "day": 4,
+    "hour": 2,
+    "count": 581,
+    "criticalCount": 125
+  },
+  {
+    "day": 4,
+    "hour": 3,
+    "count": 620,
+    "criticalCount": 106
+  },
+  {
+    "day": 4,
+    "hour": 4,
+    "count": 621,
+    "criticalCount": 121
+  },
+  {
+    "day": 4,
+    "hour": 5,
+    "count": 632,
+    "criticalCount": 127
+  },
+  {
+    "day": 4,
+    "hour": 6,
+    "count": 571,
+    "criticalCount": 112
+  },
+  {
+    "day": 4,
+    "hour": 7,
+    "count": 618,
+    "criticalCount": 131
+  },
+  {
+    "day": 4,
+    "hour": 8,
+    "count": 595,
+    "criticalCount": 132
+  },
+  {
+    "day": 4,
+    "hour": 9,
+    "count": 586,
+    "criticalCount": 138
+  },
+  {
+    "day": 4,
+    "hour": 10,
+    "count": 598,
+    "criticalCount": 115
+  },
+  {
+    "day": 4,
+    "hour": 11,
+    "count": 596,
+    "criticalCount": 122
+  },
+  {
+    "day": 4,
+    "hour": 12,
+    "count": 604,
+    "criticalCount": 125
+  },
+  {
+    "day": 4,
+    "hour": 13,
+    "count": 633,
+    "criticalCount": 140
+  },
+  {
+    "day": 4,
+    "hour": 14,
+    "count": 625,
+    "criticalCount": 122
+  },
+  {
+    "day": 4,
+    "hour": 15,
+    "count": 610,
+    "criticalCount": 121
+  },
+  {
+    "day": 4,
+    "hour": 16,
+    "count": 569,
+    "criticalCount": 105
+  },
+  {
+    "day": 4,
+    "hour": 17,
+    "count": 610,
+    "criticalCount": 136
+  },
+  {
+    "day": 4,
+    "hour": 18,
+    "count": 591,
+    "criticalCount": 141
+  },
+  {
+    "day": 4,
+    "hour": 19,
+    "count": 576,
+    "criticalCount": 121
+  },
+  {
+    "day": 4,
+    "hour": 20,
+    "count": 609,
+    "criticalCount": 123
+  },
+  {
+    "day": 4,
+    "hour": 21,
+    "count": 573,
+    "criticalCount": 110
+  },
+  {
+    "day": 4,
+    "hour": 22,
+    "count": 591,
+    "criticalCount": 125
+  },
+  {
+    "day": 4,
+    "hour": 23,
+    "count": 565,
+    "criticalCount": 107
+  },
+  {
+    "day": 5,
+    "hour": 0,
+    "count": 633,
+    "criticalCount": 128
+  },
+  {
+    "day": 5,
+    "hour": 1,
+    "count": 583,
+    "criticalCount": 110
+  },
+  {
+    "day": 5,
+    "hour": 2,
+    "count": 599,
+    "criticalCount": 128
+  },
+  {
+    "day": 5,
+    "hour": 3,
+    "count": 551,
+    "criticalCount": 100
+  },
+  {
+    "day": 5,
+    "hour": 4,
+    "count": 613,
+    "criticalCount": 116
+  },
+  {
+    "day": 5,
+    "hour": 5,
+    "count": 594,
+    "criticalCount": 116
+  },
+  {
+    "day": 5,
+    "hour": 6,
+    "count": 541,
+    "criticalCount": 111
+  },
+  {
+    "day": 5,
+    "hour": 7,
+    "count": 544,
+    "criticalCount": 104
+  },
+  {
+    "day": 5,
+    "hour": 8,
+    "count": 561,
+    "criticalCount": 102
+  },
+  {
+    "day": 5,
+    "hour": 9,
+    "count": 583,
+    "criticalCount": 128
+  },
+  {
+    "day": 5,
+    "hour": 10,
+    "count": 580,
+    "criticalCount": 126
+  },
+  {
+    "day": 5,
+    "hour": 11,
+    "count": 633,
+    "criticalCount": 127
+  },
+  {
+    "day": 5,
+    "hour": 12,
+    "count": 607,
+    "criticalCount": 137
+  },
+  {
+    "day": 5,
+    "hour": 13,
+    "count": 552,
+    "criticalCount": 98
+  },
+  {
+    "day": 5,
+    "hour": 14,
+    "count": 577,
+    "criticalCount": 108
+  },
+  {
+    "day": 5,
+    "hour": 15,
+    "count": 610,
+    "criticalCount": 127
+  },
+  {
+    "day": 5,
+    "hour": 16,
+    "count": 577,
+    "criticalCount": 117
+  },
+  {
+    "day": 5,
+    "hour": 17,
+    "count": 598,
+    "criticalCount": 94
+  },
+  {
+    "day": 5,
+    "hour": 18,
+    "count": 627,
+    "criticalCount": 138
+  },
+  {
+    "day": 5,
+    "hour": 19,
+    "count": 582,
+    "criticalCount": 113
+  },
+  {
+    "day": 5,
+    "hour": 20,
+    "count": 564,
+    "criticalCount": 123
+  },
+  {
+    "day": 5,
+    "hour": 21,
+    "count": 585,
+    "criticalCount": 122
+  },
+  {
+    "day": 5,
+    "hour": 22,
+    "count": 534,
+    "criticalCount": 92
+  },
+  {
+    "day": 5,
+    "hour": 23,
+    "count": 623,
+    "criticalCount": 108
+  },
+  {
+    "day": 6,
+    "hour": 0,
+    "count": 571,
+    "criticalCount": 110
+  },
+  {
+    "day": 6,
+    "hour": 1,
+    "count": 559,
+    "criticalCount": 112
+  },
+  {
+    "day": 6,
+    "hour": 2,
+    "count": 579,
+    "criticalCount": 137
+  },
+  {
+    "day": 6,
+    "hour": 3,
+    "count": 571,
+    "criticalCount": 105
+  },
+  {
+    "day": 6,
+    "hour": 4,
+    "count": 581,
+    "criticalCount": 117
+  },
+  {
+    "day": 6,
+    "hour": 5,
+    "count": 577,
+    "criticalCount": 127
+  },
+  {
+    "day": 6,
+    "hour": 6,
+    "count": 558,
+    "criticalCount": 114
+  },
+  {
+    "day": 6,
+    "hour": 7,
+    "count": 596,
+    "criticalCount": 132
+  },
+  {
+    "day": 6,
+    "hour": 8,
+    "count": 588,
+    "criticalCount": 111
+  },
+  {
+    "day": 6,
+    "hour": 9,
+    "count": 575,
+    "criticalCount": 112
+  },
+  {
+    "day": 6,
+    "hour": 10,
+    "count": 584,
+    "criticalCount": 120
+  },
+  {
+    "day": 6,
+    "hour": 11,
+    "count": 578,
+    "criticalCount": 115
+  },
+  {
+    "day": 6,
+    "hour": 12,
+    "count": 588,
+    "criticalCount": 113
+  },
+  {
+    "day": 6,
+    "hour": 13,
+    "count": 618,
+    "criticalCount": 141
+  },
+  {
+    "day": 6,
+    "hour": 14,
+    "count": 608,
+    "criticalCount": 118
+  },
+  {
+    "day": 6,
+    "hour": 15,
+    "count": 553,
+    "criticalCount": 110
+  },
+  {
+    "day": 6,
+    "hour": 16,
+    "count": 569,
+    "criticalCount": 112
+  },
+  {
+    "day": 6,
+    "hour": 17,
+    "count": 610,
+    "criticalCount": 118
+  },
+  {
+    "day": 6,
+    "hour": 18,
+    "count": 595,
+    "criticalCount": 112
+  },
+  {
+    "day": 6,
+    "hour": 19,
+    "count": 566,
+    "criticalCount": 133
+  },
+  {
+    "day": 6,
+    "hour": 20,
+    "count": 598,
+    "criticalCount": 109
+  },
+  {
+    "day": 6,
+    "hour": 21,
+    "count": 542,
+    "criticalCount": 105
+  },
+  {
+    "day": 6,
+    "hour": 22,
+    "count": 593,
+    "criticalCount": 120
+  },
+  {
+    "day": 6,
+    "hour": 23,
+    "count": 566,
+    "criticalCount": 124
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "severity": [
+    {
+      "name": "CRITICAL",
+      "count": 20231,
+      "percentage": 20.2,
+      "color": "#dc2626"
+    },
+    {
+      "name": "HIGH",
+      "count": 20496,
+      "percentage": 20.5,
+      "color": "#f59e0b"
+    },
+    {
+      "name": "MEDIUM",
+      "count": 20639,
+      "percentage": 20.6,
+      "color": "#06b6d4"
+    },
+    {
+      "name": "LOW",
+      "count": 38634,
+      "percentage": 38.6,
+      "color": "#22c55e"
+    }
+  ],
+  "eventTypes": [],
+  "categories": [
+    {
+      "name": "ai",
+      "count": 12667,
+      "percentage": 12.7
+    },
+    {
+      "name": "endpoint",
+      "count": 12589,
+      "percentage": 12.6
+    },
+    {
+      "name": "auth",
+      "count": 12516,
+      "percentage": 12.5
+    },
+    {
+      "name": "cloud",
+      "count": 12511,
+      "percentage": 12.5
+    },
+    {
+      "name": "firewall",
+      "count": 12448,
+      "percentage": 12.4
+    },
+    {
+      "name": "iot",
+      "count": 12434,
+      "percentage": 12.4
+    },
+    {
+      "name": "network",
+      "count": 12335,
+      "percentage": 12.3
+    },
+    {
+      "name": "Evasion",
+      "count": 2556,
+      "percentage": 2.6
+    },
+    {
+      "name": "Policy",
+      "count": 2534,
+      "percentage": 2.5
+    },
+    {
+      "name": "Recon",
+      "count": 2509,
+      "percentage": 2.5
+    }
+  ],
+  "protocols": [
+    {
+      "name": "TCP",
+      "count": 79044,
+      "percentage": 79
+    },
+    {
+      "name": "ICMP",
+      "count": 3723,
+      "percentage": 3.7
+    },
+    {
+      "name": "UDP",
+      "count": 3676,
+      "percentage": 3.7
+    },
+    {
+      "name": "HTTPS",
+      "count": 3673,
+      "percentage": 3.7
+    },
+    {
+      "name": "HTTP",
+      "count": 3637,
+      "percentage": 3.6
+    },
+    {
+      "name": "SSH",
+      "count": 1290,
+      "percentage": 1.3
+    },
+    {
+      "name": "RDP",
+      "count": 1277,
+      "percentage": 1.3
+    },
+    {
+      "name": "NTP",
+      "count": 1246,
+      "percentage": 1.2
+    },
+    {
+      "name": "DNS",
+      "count": 1224,
+      "percentage": 1.2
+    },
+    {
+      "name": "SMB",
+      "count": 1210,
+      "percentage": 1.2
+    }
+  ],
+  "topPorts": [
+    {
+      "name": "Port 181",
+      "count": 20,
+      "percentage": 0
+    },
+    {
+      "name": "Port 252",
+      "count": 19,
+      "percentage": 0
+    },
+    {
+      "name": "Port 318",
+      "count": 19,
+      "percentage": 0
+    },
+    {
+      "name": "Port 244",
+      "count": 19,
+      "percentage": 0
+    },
+    {
+      "name": "Port 251",
+      "count": 19,
+      "percentage": 0
+    },
+    {
+      "name": "Port 373",
+      "count": 18,
+      "percentage": 0
+    },
+    {
+      "name": "Port 14",
+      "count": 18,
+      "percentage": 0
+    },
+    {
+      "name": "Port 454",
+      "count": 18,
+      "percentage": 0
+    }
+  ]
+}

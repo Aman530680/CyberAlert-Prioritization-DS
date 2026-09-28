@@ -1,0 +1,286 @@
+{
+  "sourceIps": [
+    {
+      "entity": "10.68.21.231",
+      "count": 2,
+      "percentage": 0,
+      "criticalShare": 50,
+      "lastSeen": "2025-04-15T04:12:12",
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "10.225.178.90",
+      "count": 2,
+      "percentage": 0,
+      "criticalShare": 0,
+      "lastSeen": "2025-06-29T20:47:52",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "10.119.245.210",
+      "count": 2,
+      "percentage": 0,
+      "criticalShare": 0,
+      "lastSeen": "2028-05-16T04:21:22",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "54.159.34.148",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 100,
+      "lastSeen": "2025-03-21T10:03:20",
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "11.167.185.171",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "lastSeen": "2025-05-16T05:15:15",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "154.67.212.53",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "lastSeen": "2025-01-24T03:07:16",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "66.38.201.234",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "lastSeen": "2025-01-28T17:08:30",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "114.244.55.219",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "lastSeen": "2025-05-22T23:24:53",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "200.110.243.90",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "lastSeen": "2025-03-23T12:56:35",
+      "severity": "HIGH"
+    },
+    {
+      "entity": "196.221.103.178",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 100,
+      "lastSeen": "2025-04-05T05:52:12",
+      "severity": "CRITICAL"
+    }
+  ],
+  "targetIps": [
+    {
+      "entity": "N/A",
+      "count": 3709,
+      "percentage": 3.71,
+      "criticalShare": 39.9,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "134.69.47.130",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "10.222.147.90",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "54.130.244.209",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "217.85.18.173",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "147.41.238.1",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "76.225.7.226",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 100,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "109.159.128.33",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "123.198.77.58",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "10.251.11.159",
+      "count": 1,
+      "percentage": 0,
+      "criticalShare": 0,
+      "severity": "MEDIUM"
+    }
+  ],
+  "ports": [
+    {
+      "entity": "Port 181",
+      "count": 20,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "Port 252",
+      "count": 19,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "Port 318",
+      "count": 19,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "Port 244",
+      "count": 19,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "Port 251",
+      "count": 19,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "Port 373",
+      "count": 18,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "Port 14",
+      "count": 18,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    },
+    {
+      "entity": "Port 454",
+      "count": 18,
+      "percentage": 0.02,
+      "criticalShare": 14.5,
+      "severity": "MEDIUM"
+    }
+  ],
+  "categories": [
+    {
+      "entity": "ai",
+      "count": 12667,
+      "percentage": 12.67,
+      "criticalShare": 20.5,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "endpoint",
+      "count": 12589,
+      "percentage": 12.59,
+      "criticalShare": 20.8,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "auth",
+      "count": 12516,
+      "percentage": 12.52,
+      "criticalShare": 0,
+      "severity": "HIGH"
+    },
+    {
+      "entity": "cloud",
+      "count": 12511,
+      "percentage": 12.51,
+      "criticalShare": 19.9,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "firewall",
+      "count": 12448,
+      "percentage": 12.45,
+      "criticalShare": 20.5,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "iot",
+      "count": 12434,
+      "percentage": 12.43,
+      "criticalShare": 19.7,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "network",
+      "count": 12335,
+      "percentage": 12.34,
+      "criticalShare": 20.3,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "Evasion",
+      "count": 2556,
+      "percentage": 2.56,
+      "criticalShare": 39.7,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "Policy",
+      "count": 2534,
+      "percentage": 2.53,
+      "criticalShare": 40.3,
+      "severity": "CRITICAL"
+    },
+    {
+      "entity": "Recon",
+      "count": 2509,
+      "percentage": 2.51,
+      "criticalShare": 39,
+      "severity": "CRITICAL"
+    }
+  ]
+}

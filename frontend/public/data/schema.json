@@ -1,0 +1,589 @@
+{
+  "datasetPath": "D:\\Data Science Project\\DS\\Day 1\\CyberAlert-Prioritization\\data\\raw\\dataset.jsonl",
+  "sampleSize": 200,
+  "inferredAt": "2026-09-28T08:35:05.454Z",
+  "totalFields": 35,
+  "fields": [
+    {
+      "name": "event_id",
+      "jsType": "string",
+      "semanticType": "identifier",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 200,
+      "exampleValues": [
+        "8e785e09-5213-46b1-a6eb-b7e40998905b",
+        "bf4fa0a9-0665-40cd-ad81-6bdc84f189d4",
+        "e400e1b2-d174-43d0-8a17-f1f966a2b857"
+      ]
+    },
+    {
+      "name": "timestamp",
+      "jsType": "string",
+      "semanticType": "timestamp",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 200,
+      "exampleValues": [
+        "2025-05-28T23:46:49",
+        "2025-01-22T04:17:38",
+        "2025-03-21T10:03:20"
+      ]
+    },
+    {
+      "name": "event_type",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 8,
+      "exampleValues": [
+        "endpoint",
+        "iot",
+        "ids_alert"
+      ],
+      "distinctValues": [
+        "endpoint",
+        "iot",
+        "ids_alert",
+        "cloud",
+        "ai",
+        "firewall",
+        "network",
+        "auth"
+      ]
+    },
+    {
+      "name": "source",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 20,
+      "exampleValues": [
+        "Microsoft Sentinel v1.0.0",
+        "AlienVault v5.7.0",
+        "Carbon Black v7.8.0"
+      ]
+    },
+    {
+      "name": "severity",
+      "jsType": "string",
+      "semanticType": "severity",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 6,
+      "exampleValues": [
+        "critical",
+        "low",
+        "critical"
+      ],
+      "distinctValues": [
+        "critical",
+        "low",
+        "info",
+        "high",
+        "medium",
+        "emergency"
+      ]
+    },
+    {
+      "name": "raw_log",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 200,
+      "exampleValues": [
+        "CEF:0|Microsoft Sentinel v1.0.0|SIEM|1.0|100|endpoint|critical| desc=Endpoint file_access /I/fear.ppt by deannataylor No additional info",
+        "CEF:0|AlienVault v5.7.0|SIEM|1.0|100|iot|low| desc=IoT device HVAC side_channel No additional info",
+        "CEF:0|Carbon Black v7.8.0|SIEM|1.0|100|ids_alert|critical| desc=Carbon Black Alert: Credential Stuffing detected from 54.159.34.148 targeting N/A No additional info"
+      ]
+    },
+    {
+      "name": "advanced_metadata",
+      "jsType": "object",
+      "semanticType": "nested",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 200,
+      "exampleValues": [
+        {
+          "geo_location": "Isle of Man",
+          "device_hash": "d8595a4fb801a5ac7fcfe0987f50b16af71d52b2",
+          "user_agent": "Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.01; Trident/5.0)",
+          "session_id": "c1a4c54e-e3c9-459f-88af-afb52bd1f220",
+          "risk_score": 61.04,
+          "confidence": 0.33
+        },
+        {
+          "geo_location": "Faroe Islands",
+          "device_hash": "05b6391883ff4291c88feeae6805a8020699e0db11a617cfdc0cd28044a93d91",
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/25.0.828.0 Safari/535.2",
+          "session_id": "c43a7bb6-111b-451b-bdd1-3c67cd8ece0a",
+          "risk_score": 53.84,
+          "confidence": 0.4
+        },
+        {
+          "geo_location": "Mexico",
+          "device_hash": "63c4a533200b95fef99dc4d1b50c5a62",
+          "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/60.0.854.0 Safari/532.2",
+          "session_id": "d31334f8-9de7-435a-8dbb-f27b5c356a5c",
+          "risk_score": 69.05,
+          "confidence": 0.84
+        }
+      ]
+    },
+    {
+      "name": "additional_info",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 43,
+      "exampleValues": [
+        "No additional info",
+        "No additional info",
+        "No additional info"
+      ]
+    },
+    {
+      "name": "description",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 0,
+      "nullRate": 0,
+      "distinctCount": 197,
+      "exampleValues": [
+        "Endpoint file_access /I/fear.ppt by deannataylor No additional info",
+        "IoT device HVAC side_channel No additional info",
+        "Carbon Black Alert: Credential Stuffing detected from 54.159.34.148 targeting N/A No additional info"
+      ]
+    },
+    {
+      "name": "action",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 31,
+      "nullRate": 0.155,
+      "distinctCount": 53,
+      "exampleValues": [
+        "file_access",
+        "side_channel",
+        "sensor_spoofing"
+      ]
+    },
+    {
+      "name": "user",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 98,
+      "nullRate": 0.49,
+      "distinctCount": 101,
+      "exampleValues": [
+        "deannataylor",
+        "browndon",
+        "donna89"
+      ]
+    },
+    {
+      "name": "src_ip",
+      "jsType": "string",
+      "semanticType": "ip",
+      "nullCount": 106,
+      "nullRate": 0.53,
+      "distinctCount": 94,
+      "exampleValues": [
+        "54.159.34.148",
+        "11.167.185.171",
+        "154.67.212.53"
+      ]
+    },
+    {
+      "name": "dst_ip",
+      "jsType": "string",
+      "semanticType": "ip",
+      "nullCount": 128,
+      "nullRate": 0.64,
+      "distinctCount": 65,
+      "exampleValues": [
+        "N/A",
+        "134.69.47.130",
+        "10.222.147.90"
+      ]
+    },
+    {
+      "name": "protocol",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 159,
+      "nullRate": 0.795,
+      "distinctCount": 9,
+      "exampleValues": [
+        "UDP",
+        "TCP",
+        "HTTPS"
+      ],
+      "distinctValues": [
+        "UDP",
+        "TCP",
+        "HTTPS",
+        "HTTP",
+        "SSH",
+        "RDP",
+        "DNS",
+        "ICMP",
+        "NTP"
+      ]
+    },
+    {
+      "name": "bytes",
+      "jsType": "number",
+      "semanticType": "numeric",
+      "nullCount": 159,
+      "nullRate": 0.795,
+      "distinctCount": 41,
+      "exampleValues": [
+        942103,
+        519723,
+        239109
+      ],
+      "min": 32943,
+      "max": 953532
+    },
+    {
+      "name": "model_id",
+      "jsType": "string",
+      "semanticType": "identifier",
+      "nullCount": 166,
+      "nullRate": 0.83,
+      "distinctCount": 34,
+      "exampleValues": [
+        "model-e422fb28",
+        "model-5069fb75",
+        "model-9799800a"
+      ]
+    },
+    {
+      "name": "input_hash",
+      "jsType": "string",
+      "semanticType": "identifier",
+      "nullCount": 166,
+      "nullRate": 0.83,
+      "distinctCount": 34,
+      "exampleValues": [
+        "caa1aa341bf27dffaf467ab0d9a44ec0710aebaeeee7416dfd8ce15b957eed5d",
+        "15cafa34ee721b27011b795ffef9a360",
+        "0acc7df9a157eb6efc30a6764eb7883ff8a88f0f"
+      ]
+    },
+    {
+      "name": "output_hash",
+      "jsType": "string",
+      "semanticType": "identifier",
+      "nullCount": 166,
+      "nullRate": 0.83,
+      "distinctCount": 34,
+      "exampleValues": [
+        "ba11afd1b9817f6dfdb8ed38bce0ed67",
+        "f1dc2c6e75f59d55556d90f09201ea59",
+        "e969e4f663b3ecbbc255c07de7f061dad2bf97a0"
+      ]
+    },
+    {
+      "name": "alert_type",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 169,
+      "nullRate": 0.845,
+      "distinctCount": 13,
+      "exampleValues": [
+        "Credential Stuffing",
+        "Fileless Attack",
+        "Credential Stuffing"
+      ],
+      "distinctValues": [
+        "Credential Stuffing",
+        "Fileless Attack",
+        "Container Escape",
+        "DNS Tunneling",
+        "AI Model Poisoning",
+        "Cloud API Abuse",
+        "Supply Chain Compromise",
+        "Zero-Day Exploit",
+        "XSS",
+        "SQL Injection",
+        "Brute Force",
+        "MFA Bypass",
+        "DDoS"
+      ]
+    },
+    {
+      "name": "signature_id",
+      "jsType": "string",
+      "semanticType": "identifier",
+      "nullCount": 169,
+      "nullRate": 0.845,
+      "distinctCount": 31,
+      "exampleValues": [
+        "SIG-9267",
+        "SIG-3838",
+        "SIG-9233"
+      ]
+    },
+    {
+      "name": "category",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 169,
+      "nullRate": 0.845,
+      "distinctCount": 5,
+      "exampleValues": [
+        "Exploit",
+        "Recon",
+        "Recon"
+      ],
+      "distinctValues": [
+        "Exploit",
+        "Recon",
+        "Policy",
+        "Malware",
+        "Evasion"
+      ]
+    },
+    {
+      "name": "object",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 174,
+      "nullRate": 0.87,
+      "distinctCount": 26,
+      "exampleValues": [
+        "/I/fear.ppt",
+        "station",
+        "/loss/business.key"
+      ]
+    },
+    {
+      "name": "process_id",
+      "jsType": "number",
+      "semanticType": "identifier",
+      "nullCount": 174,
+      "nullRate": 0.87,
+      "distinctCount": 26,
+      "exampleValues": [
+        8141,
+        3322,
+        5305
+      ],
+      "min": 738,
+      "max": 9905
+    },
+    {
+      "name": "parent_process",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 174,
+      "nullRate": 0.87,
+      "distinctCount": 4,
+      "exampleValues": [
+        "explorer.exe",
+        "explorer.exe",
+        "svchost.exe"
+      ],
+      "distinctValues": [
+        "explorer.exe",
+        "svchost.exe",
+        "cmd.exe",
+        "powershell.exe"
+      ]
+    },
+    {
+      "name": "device_type",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 174,
+      "nullRate": 0.87,
+      "distinctCount": 5,
+      "exampleValues": [
+        "HVAC",
+        "HVAC",
+        "Thermostat"
+      ],
+      "distinctValues": [
+        "HVAC",
+        "Thermostat",
+        "Medical",
+        "Sensor",
+        "Camera"
+      ]
+    },
+    {
+      "name": "device_id",
+      "jsType": "string",
+      "semanticType": "identifier",
+      "nullCount": 174,
+      "nullRate": 0.87,
+      "distinctCount": 26,
+      "exampleValues": [
+        "iot-dc0f5947",
+        "iot-3be43a73",
+        "iot-a5f7547f"
+      ]
+    },
+    {
+      "name": "firmware_version",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 174,
+      "nullRate": 0.87,
+      "distinctCount": 20,
+      "exampleValues": [
+        "9.8",
+        "9.3",
+        "4.9"
+      ]
+    },
+    {
+      "name": "src_port",
+      "jsType": "number",
+      "semanticType": "port",
+      "nullCount": 175,
+      "nullRate": 0.875,
+      "distinctCount": 25,
+      "exampleValues": [
+        41468,
+        384,
+        9227
+      ],
+      "min": 31,
+      "max": 51767
+    },
+    {
+      "name": "dst_port",
+      "jsType": "number",
+      "semanticType": "port",
+      "nullCount": 175,
+      "nullRate": 0.875,
+      "distinctCount": 25,
+      "exampleValues": [
+        717,
+        109,
+        383
+      ],
+      "min": 62,
+      "max": 62119
+    },
+    {
+      "name": "duration",
+      "jsType": "number",
+      "semanticType": "numeric",
+      "nullCount": 175,
+      "nullRate": 0.875,
+      "distinctCount": 25,
+      "exampleValues": [
+        163,
+        3120,
+        3039
+      ],
+      "min": 163,
+      "max": 3168
+    },
+    {
+      "name": "method",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 178,
+      "nullRate": 0.89,
+      "distinctCount": 7,
+      "exampleValues": [
+        "password",
+        "key",
+        "key"
+      ],
+      "distinctValues": [
+        "password",
+        "key",
+        "passwordless",
+        "SAML",
+        "MFA",
+        "OAuth",
+        "biometric"
+      ]
+    },
+    {
+      "name": "mac_address",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 178,
+      "nullRate": 0.89,
+      "distinctCount": 22,
+      "exampleValues": [
+        "5c:4d:c1:05:d8:74",
+        "ab:39:c6:b5:17:13",
+        "80:14:ff:0e:60:bc"
+      ]
+    },
+    {
+      "name": "behavioral_analytics",
+      "jsType": "object",
+      "semanticType": "nested",
+      "nullCount": 179,
+      "nullRate": 0.895,
+      "distinctCount": 21,
+      "exampleValues": [
+        {
+          "baseline_deviation": 1.84,
+          "entropy": 3.6,
+          "frequency_anomaly": false,
+          "sequence_anomaly": false
+        },
+        {
+          "baseline_deviation": 0.65,
+          "entropy": 6.76,
+          "frequency_anomaly": false,
+          "sequence_anomaly": true
+        },
+        {
+          "baseline_deviation": 2.18,
+          "entropy": 6.54,
+          "frequency_anomaly": false,
+          "sequence_anomaly": true
+        }
+      ]
+    },
+    {
+      "name": "cloud_service",
+      "jsType": "string",
+      "semanticType": "text",
+      "nullCount": 180,
+      "nullRate": 0.9,
+      "distinctCount": 5,
+      "exampleValues": [
+        "GCP",
+        "AWS",
+        "OCI"
+      ],
+      "distinctValues": [
+        "GCP",
+        "AWS",
+        "OCI",
+        "Azure",
+        "Alibaba"
+      ]
+    },
+    {
+      "name": "resource_id",
+      "jsType": "string",
+      "semanticType": "category",
+      "nullCount": 180,
+      "nullRate": 0.9,
+      "distinctCount": 20,
+      "exampleValues": [
+        "res-a58e9899",
+        "res-78f9ed2c",
+        "res-42725d05"
+      ]
+    }
+  ]
+}

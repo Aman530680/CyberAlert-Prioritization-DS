@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ins-1",
+    "type": "critical",
+    "title": "High-Impact Threat Escalation",
+    "description": "Critical alerts account for 20.2% of overall telemetry, driven primarily by zero-day exploit and credential stuffing signatures.",
+    "filterKey": "severity",
+    "filterValue": "CRITICAL",
+    "metric": "20.2% Critical"
+  },
+  {
+    "id": "ins-2",
+    "type": "network",
+    "title": "Dominant Threat Origin (10.68.21.231)",
+    "description": "Top source IP 10.68.21.231 generated 2 alerts with 50.0% critical conversion rate.",
+    "filterKey": "srcIp",
+    "filterValue": "10.68.21.231",
+    "metric": "2 events"
+  },
+  {
+    "id": "ins-3",
+    "type": "volume",
+    "title": "Diurnal Peak Activity Window (15:00 - 17:00 UTC)",
+    "description": "Ingestion velocity surges during the 15:00 UTC window, generating concentrated alert bursts across external perimeter firewalls.",
+    "metric": "Peak: 4,297 alerts"
+  },
+  {
+    "id": "ins-4",
+    "type": "anomaly",
+    "title": "Category Concentration: ai",
+    "description": "ai telemetry constitutes 12.7% of events, necessitating dedicated firewall rate-limiting policies.",
+    "filterKey": "category",
+    "filterValue": "ai",
+    "metric": "12,667 signals"
+  }
+]
