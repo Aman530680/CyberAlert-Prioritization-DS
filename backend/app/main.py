@@ -3,8 +3,16 @@ CyberAlert-Prioritization: FastAPI Application Entrypoint
 Intelligent SOC Alert Analytics & Incident Prediction Platform API.
 """
 
+import sys
 import logging
+from pathlib import Path
 from contextlib import asynccontextmanager
+
+# Add project root to sys.path so it runs seamlessly from any working directory
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
